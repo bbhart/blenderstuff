@@ -9,9 +9,10 @@ https://www.youtube.com/playlist?list=PLjEaoINr3zgEq0u2MzVgAaHEBt--xLB6U.
 1. Renders happen twice. Somtimes the second pass it will render all my hidden stuff and then remove    it in the last moment before render completes. Other times the hidden stuff is there.
 2. HOW DO I MAKE IT NOT RENDER ALL THE HIDDEN STUFF??? [1]
 3. For my coffee mug and saucer, when transmission is 1 and roughness is 0, Blender is "helpfully"
-    using some sort of river rock texture that comes from who-knows where.
+    using [some sort of river rock texture that comes from who-knows where](https://www.youtube.com/watch?v=TaRx-s5RH6Q).
 4. When moving an object: even when I'm in axis restrict mode (e.g. only move on Y), Blender
-    will still move on other axis if an object is encountered. I Do. Not. Want. This.
+    will still move on other axis if another object is encountered. I Do. Not. Want. This.
+    I'd just hide the other object, but I need it to help me align. [Here's a video](https://www.youtube.com/watch?v=axg2Etkm6s4)
 
 ## Random notes
 
@@ -36,6 +37,8 @@ _Documenting this on its own since it gave me problems._
 ## Other Stumbling Blocks
 * Weird shit happening when moving vertices? Check your Proportional Editing setting
 
+## Renders Showing Problems
 
-[1]
-![not hidden](donut-blender28/renders/please-please-dont-render-hidden-objects.png)
+Rendering hidden things [1]:
+![please stop rendering things I have hidden](donut-blender28/renders/please-please-dont-render-hidden-objects.png)
+
