@@ -17,7 +17,7 @@ https://www.youtube.com/playlist?list=PLjEaoINr3zgEq0u2MzVgAaHEBt--xLB6U.
 3. ~~For my coffee mug and saucer, when transmission is 1 and roughness is 0, Blender is "helpfully"
     using [some sort of river rock texture](https://www.youtube.com/watch?v=TaRx-s5RH6Q) that 
     comes from who-knows-where. [This .blend file](https://github.com/bbhart/blenderstuff/blob/52cb4cbfa4dcebf28826a55b27d10801fd723888/donut-blender28/donut-and-coffee.blend) should show 
-    the problem.~~ **Answer:** Seems this is by design. It projeccts a random HDRI background onto
+    the problem.~~ **Answer:** Seems this is by design. It projects a random HDRI background onto
     the mesh in Look Dev mode since it can't do the glass or transparent materials in this mode.
 4. ~~When moving an object: even when I'm in axis restrict mode (e.g. only move on Y), Blender
     will still move on other axis if another object is encountered. I Do. Not. Want. This.
@@ -26,13 +26,14 @@ https://www.youtube.com/playlist?list=PLjEaoINr3zgEq0u2MzVgAaHEBt--xLB6U.
 
 ## Random notes
 
-* Can't zoom in anymore? Turn off Perspective Mode with numpad-5.
+* Can't zoom in anymore? ~~Turn off Perspective Mode with numpad-5.~~ You're focused on the wrong object. Select the object you want to work with and then do `numpad-.`.
 * To "bridge" empty faces (like on the coffee cup handle):
     * Delete the opposing faces
     * Select vertices on both sides (4 on each side if square/rectangular)
     * Hit F3 and look for Bridge Edge Loops
 * Use Solidify modifier in object mode to give something thickness
-* Use Subdivide Surface modifier to add geometry
+* Use Subdivide Surface modifier to add geometry. You won't have your faces on both sides, though, 
+  until you apply it.
 
 ## "Creating the coffee"
 _Documenting this on its own since it gave me problems._
@@ -43,6 +44,15 @@ _Documenting this on its own since it gave me problems._
 * Use your favorite method to select faces within the cup. (I used circle select)
 * Shift-D to duplicate.
 * P to separate (by Selection)
+
+## Adding the denoiser
+1. Go to Compositing tab.
+1. Click Use Nodes.
+1. Shift-A and add Denoise.
+1. On View Layer Properties panel on the right, click Denoising Data.
+1. From Render Layers to Denoise, connect Noisy Image to Image, Denoising Normal to Normal, Denoising Albedo to Albedo. 
+1. Connect Denoise image output to composite image.
+1. Re-render.
 
 ## Other Stumbling Blocks
 * Weird shit happening when moving vertices? Check your Proportional Editing setting
