@@ -54,11 +54,17 @@ _Documenting this on its own since it gave me problems._
 1. Connect Denoise image output to composite image.
 1. Re-render.
 
+## Rigid Body stuff
+* If you increase the number of frames for animation, you also need to increase the rigid body cache size.
+    * Scene -> Rigid Body World -> Cache, then bump up the End.
+* You need to actually run the animation once so Blender can simulate the physics. Otherwise you end up with animation that
+    stops in the middle somewhere. 
+* To connect two rigid body objects together, select both and then use the Object menu -> Rigid Body -> Connect.
+* To make an object stationary in the rigid body simulation, select it and uncheck Dynamic under Physics properties.
+
 ## Other Stumbling Blocks
 * Weird shit happening when moving vertices? Check your Proportional Editing setting
 
-## Renders Showing Problems
 
-Rendering hidden things [1]:
-![please stop rendering things I have hidden](donut-blender28/renders/please-please-dont-render-hidden-objects.png)
-
+## Other Resources
+* [UVSquares Blender Plugin](https://github.com/Radivarig/UvSquares)
