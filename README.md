@@ -4,6 +4,14 @@ Blender Stuff
 My student files for https://www.udemy.com/blenderenvironment and
 https://www.youtube.com/playlist?list=PLjEaoINr3zgEq0u2MzVgAaHEBt--xLB6U. 
 
+## Resources
+* [Blend Swap](https://blendswap.com)
+* [Poliigon](https://www.poliigon.com/)
+* [HDRIHaven](https://hdrihaven.com/hdris)
+* [HDR Labs](https://hdrlabs.com)
+* [HDR Skies](https://hdr-skies.com) has... wait for it... HDR skies
+
+
 ## Current Issues (2.81 unless mentioned otherwise)
 
 ### Outstanding
@@ -61,10 +69,9 @@ _Documenting this on its own since it gave me problems._
     stops in the middle somewhere. 
 * To connect two rigid body objects together, select both and then use the Object menu -> Rigid Body -> Connect.
 * To make an object stationary in the rigid body simulation, select it and uncheck Dynamic under Physics properties.
+* Meshes not interacting like you'd expect? Make sure you apply your scaling. 
 
 ## Other Stumbling Blocks
 * Weird shit happening when moving vertices? Check your Proportional Editing setting
 
 
-## Other Resources
-* [UVSquares Blender Plugin](https://github.com/Radivarig/UvSquares)
