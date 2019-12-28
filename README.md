@@ -73,5 +73,10 @@ _Documenting this on its own since it gave me problems._
 
 ## Other Stumbling Blocks
 * Weird shit happening when moving vertices? Check your Proportional Editing setting
+* Having trouble hooking a tracker to an empty? Make sure you're trying it in Edit mode, and use the hierarchy to select
+  the empty instead of trying to click on it. Then do Ctrl-H.
+* Set up HDRI image in Shaders tab. Select World to the left of View. Add Environment texture, then link Color pin to Surface 
+  pin of World Output. 
+
 
 
