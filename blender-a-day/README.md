@@ -11,7 +11,7 @@ or improve on something previous at least a few times a week.
     * Donut still rattles around too much after landing (like a coin would) but bounciness is low and friction is high, so not sure
     * Would be cool if some of the sprinkles fell off
 
-<iframe src="https://player.vimeo.com/video/382501009" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+[See the video](https://player.vimeo.com/video/382501009)
 
 ## 001
 
