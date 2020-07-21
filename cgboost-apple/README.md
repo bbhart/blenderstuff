@@ -10,5 +10,7 @@ I managed to model the apple on my own! It won't win any awards, but it does loo
 1. Had problems getting Bevel modifier working as shown in the video (Part 4, ~18:00). I _believe_ it has something to do with me 
     having already applied my scale earlier but FIAK. I was seeing a bevel effect on the top of the knife but the most I could do was 
     ~2.4cm.
-    
+1. My personal experience is that texture painting is flaky. You have to walk a very narrow beam to stay on the happy path.
+
+
 
