@@ -5,6 +5,7 @@ Blender Environments
 From the course [Udemy: Blender Environments](https://www.udemy.com/course/blender-environments/).
 
 Some HDRI's from [HDRIHaven](https://hdrihaven.com/).
+Some textures from [Texture Haven](https://texturehaven.com/).
 
 Course notes:
 
