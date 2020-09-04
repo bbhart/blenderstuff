@@ -9,7 +9,7 @@ https://www.youtube.com/playlist?list=PLjEaoINr3zgEq0u2MzVgAaHEBt--xLB6U.
 * [Poliigon](https://www.poliigon.com/)
 * [HDRIHaven](https://hdrihaven.com/hdris)
 * [HDR Labs](https://hdrlabs.com)
-* [HDR Skies](https://hdr-skies.com) has... wait for it... HDR skies
+* [HDRI Skies](https://hdri-skies.com) has... wait for it... HDR skies
 * [Texture Haven](https://texturehaven.com/)
 
 
