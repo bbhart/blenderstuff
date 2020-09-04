@@ -1,0 +1,1 @@
+Giving this HDRi for free. You can use it in all your commercial and private projects, but if you want to place it in package you are going to sell, please scale it down to 4096 x 2048px and link to my site http://hdrmaps.com
